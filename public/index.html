@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif}</style>
+    <title data-head="true">react-json-to-csv</title>
+  </head>
+  <body>
+    <div id=root><div class="css-1sq1gba"><div style="margin-left:auto;margin-right:auto;padding-left:32px;padding-right:32px;padding-top:32px;padding-bottom:32px;max-width:1000px"><div><h1 id="⌗-react-json-to-csv" mt="4" mb="2" font-size="5,,6" class="css-1l0jtcw"><a href="#⌗-react-json-to-csv" class="css-wioi95">⌗ react-json-to-csv</a></h1><p class="css-1whlzkr">A react button component to easily generate csv downloads of your json data. ✨</p><p class="css-1whlzkr"><img src="https://badge.fury.io/js/react-json-to-csv.svg" alt="npm package version" class="css-1a2v9hb"/> <img src="https://img.shields.io/npm/dm/react-json-to-csv" alt="npm downloads" class="css-1a2v9hb"/> <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier" class="css-1a2v9hb"/></p><h2 id="features" mt="4" mb="2" font-size="4,,5" class="css-c3uw56"><a href="#features" class="css-wioi95">Features</a></h2><ul class="css-10vwd1b"><li>Create a csv download from json data</li><li>Lightweight</li><li>Easy to use</li><li>optional filename</li></ul><h2 id="install" mt="4" mb="2" font-size="4,,5" class="css-c3uw56"><a href="#install" class="css-wioi95">Install</a></h2><p class="css-1whlzkr">Install with npm:</p><pre class="language-sh css-ncrvmf" font-size="1">npm i react-json-to-csv
+</pre><p class="css-1whlzkr">Or load from a CDN:</p><pre class="language-html css-ncrvmf" font-size="1">&lt;script src=&quot;https://cdn.jsdelivr.net/npm/react-json-to-csv&quot;&gt;&lt;/script&gt;
+</pre><h2 id="example-usage" mt="4" mb="2" font-size="4,,5" class="css-c3uw56"><a href="#example-usage" class="css-wioi95">Example Usage</a></h2><p class="css-1whlzkr">Easy, breezy, just add data.</p><div class="react-live"><div class="css-2qrmsm"><div p="3" class="react-live-preview css-19midj6">  <button>Download Data</button></div><pre font-size="1" p="3" bg="lightgray" class="prism-code css-108ro8y" spellcheck="false" contenteditable="true">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Csv2Json</span> <span class="token attr-name">data</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span>mockData<span class="token punctuation">}</span></span> <span class="token punctuation">/></span></span>
+</pre></div></div><p class="css-1whlzkr">Add a filename or other props.</p><div class="react-live"><div class="css-2qrmsm"><div p="3" class="react-live-preview css-19midj6">  <button style="box-shadow:inset 0px 1px 0px 0px #e184f3;background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);background-color:#c123de;border-radius:6px;border:1px solid #a511c0;display:inline-block;cursor:pointer;color:#ffffff;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:0px 1px 0px #9b14b3">Good Data ✨</button></div><pre font-size="1" p="3" bg="lightgray" class="prism-code css-108ro8y" spellcheck="false" contenteditable="true">  <span class="token operator">&lt;</span>Csv2Json 
+    data<span class="token operator">=</span><span class="token punctuation">{</span>mockData<span class="token punctuation">}</span>
+    filename<span class="token operator">=</span><span class="token string">"good_data.csv"</span>
+    style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token comment" spellcheck="true">//pass other props, like styles</span>
+      boxShadow<span class="token punctuation">:</span><span class="token string">"inset 0px 1px 0px 0px #e184f3"</span><span class="token punctuation">,</span>
+      background<span class="token punctuation">:</span><span class="token string">"linear-gradient(to bottom, #c123de 5%, #a20dbd 100%)"</span><span class="token punctuation">,</span>
+      backgroundColor<span class="token punctuation">:</span><span class="token string">"#c123de"</span><span class="token punctuation">,</span>
+      borderRadius<span class="token punctuation">:</span><span class="token string">"6px"</span><span class="token punctuation">,</span>
+      border<span class="token punctuation">:</span><span class="token string">"1px solid #a511c0"</span><span class="token punctuation">,</span>
+      display<span class="token punctuation">:</span><span class="token string">"inline-block"</span><span class="token punctuation">,</span>
+      cursor<span class="token punctuation">:</span><span class="token string">"pointer"</span><span class="token punctuation">,</span><span class="token string">"color"</span><span class="token punctuation">:</span><span class="token string">"#ffffff"</span><span class="token punctuation">,</span>
+      fontSize<span class="token punctuation">:</span><span class="token string">"15px"</span><span class="token punctuation">,</span>
+      fontWeight<span class="token punctuation">:</span><span class="token string">"bold"</span><span class="token punctuation">,</span>
+      padding<span class="token punctuation">:</span><span class="token string">"6px 24px"</span><span class="token punctuation">,</span>
+      textDecoration<span class="token punctuation">:</span><span class="token string">"none"</span><span class="token punctuation">,</span>
+      textShadow<span class="token punctuation">:</span><span class="token string">"0px 1px 0px #9b14b3"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">}</span>
+  <span class="token operator">></span>
+    Good Data ✨
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Csv2Json</span><span class="token punctuation">></span></span>
+</pre></div></div><h2 id="props" mt="4" mb="2" font-size="4,,5" class="css-c3uw56"><a href="#props" class="css-wioi95">Props</a></h2><table class="css-e2200s"><thead><tr><th>Prop</th><th>Type</th><th>Requirement</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td>data</td><td><code class="css-h2uv5g">object</code></td><td><code class="css-h2uv5g">required</code></td><td><code class="css-h2uv5g">null</code></td><td>object or array of objects</td></tr><tr><td>filename</td><td><code class="css-h2uv5g">string</code></td><td><code class="css-h2uv5g">optional</code></td><td>&quot;export.csv&quot;</td><td>The complete filename</td></tr></tbody></table><h2 id="contributing" mt="4" mb="2" font-size="4,,5" class="css-c3uw56"><a href="#contributing" class="css-wioi95">Contributing</a></h2><p class="css-1whlzkr">Please help provide good data faster! Submit any issues and/or make a pull request!</p></div></div></div></div>
+    <script src='/main.js'></script>
+  </body>
+</html>
