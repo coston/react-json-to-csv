@@ -1,7 +1,7 @@
 import React from 'react'
 import csvDownload from 'json-to-csv-export'
 
-const Json2Csv = props => {
+const CsvDownload = props => {
   const { data, filename, ...others } = props
 
   return (
@@ -10,4 +10,4 @@ const Json2Csv = props => {
     </button>
   )
 }
-export default Json2Csv
+export default CsvDownload

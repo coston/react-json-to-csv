@@ -18,7 +18,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
-var Json2Csv = function Json2Csv(props) {
+var CsvDownload = function CsvDownload(props) {
   var data = props.data,
       filename = props.filename,
       others = _objectWithoutProperties(props, ['data', 'filename']);
@@ -31,4 +31,4 @@ var Json2Csv = function Json2Csv(props) {
     props.children || 'Download Data'
   );
 };
-exports.default = Json2Csv;
+exports.default = CsvDownload;
