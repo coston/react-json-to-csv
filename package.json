@@ -69,7 +69,10 @@
   "keywords": [
     "react",
     "react-component",
-    "table"
+    "json",
+    "csv",
+    "button",
+    "download"
   ],
   "directories": {
     "test": "test"
