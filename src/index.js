@@ -5,7 +5,7 @@ const CsvDownload = props => {
   const { data, filename, ...others } = props
 
   return (
-    <button onClick={() => csvDownload(props.data, props.filename)} {...others}>
+    <button onClick={() => csvDownload(data, filename)} {...others}>
       {props.children || 'Download Data'}
     </button>
   )

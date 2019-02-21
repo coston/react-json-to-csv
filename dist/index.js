@@ -26,7 +26,7 @@ var CsvDownload = function CsvDownload(props) {
   return _react2.default.createElement(
     'button',
     _extends({ onClick: function onClick() {
-        return (0, _jsonToCsvExport2.default)(props.data, props.filename);
+        return (0, _jsonToCsvExport2.default)(data, filename);
       } }, others),
     props.children || 'Download Data'
   );
