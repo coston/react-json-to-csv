@@ -78,6 +78,6 @@
     "test": "test"
   },
   "dependencies": {
-    "json-to-csv-export": "^1.0.0"
+    "json-to-csv-export": "^1.0.2"
   }
 }
