@@ -27,7 +27,7 @@ Or load from a CDN:
 
 ## Example Usage
 ```jsx
-import csvDownload from 'react-json-to-csv'
+import Csv2Json from 'react-json-to-csv'
 ...
 
 <Csv2Json data={mockData} />
