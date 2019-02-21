@@ -1,12 +1,12 @@
 // example Root component
 import React from 'react'
 import { StyleProvider } from 'mdx-go'
-import Csv2Json from '../src/index'
+import CsvDownload from '../src/index'
 import mockData from './mockData.js'
 
 
 const components = {
-  Csv2Json,
+  CsvDownload,
   mockData,
 }
 
