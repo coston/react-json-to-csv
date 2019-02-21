@@ -1,10 +1,10 @@
 import React from 'react'
-import Csv2Json from '../src/index'
+import CsvDownload from '../src/index'
 import renderer from 'react-test-renderer';
 
-test('Render Csv2Json', () => {
+test('Render CsvDownload', () => {
   const wrapper = shallow(
-    <Csv2Json
+    <CsvDownload
       data={mockData}
     />
   )

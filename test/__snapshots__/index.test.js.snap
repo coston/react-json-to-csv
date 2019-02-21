@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Csv2Json 1`] = `
+exports[`Render CsvDownload 1`] = `
 <button
   onClick={[Function]}
 >
