@@ -1,6 +1,6 @@
 {
   "name": "react-json-to-csv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react button component to easily generate csv downloads of your json data.",
   "main": "dist/index.js",
   "files": [
