@@ -3,7 +3,7 @@ A react button component to easily generate csv downloads of your json data. ✨
 
 [![npm package version](https://badge.fury.io/js/react-json-to-csv.svg)](https://www.npmjs.com/package/react-json-to-csv)&nbsp;
 [![npm downloads](https://img.shields.io/npm/dm/react-json-to-csv.svg)](https://www.npmjs.com/package/react-json-to-csv)&nbsp;
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io) [![Greenkeeper badge](https://badges.greenkeeper.io/coston/react-json-to-csv.svg)](https://greenkeeper.io/)
 
 ## Live Demo 
 [https://react-json-to-csv.coston.io](https://react-json-to-csv.coston.io)
