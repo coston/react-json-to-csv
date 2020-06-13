@@ -53,7 +53,7 @@
     "core-js": "2.5.7",
     "coveralls": "3.0.2",
     "enzyme": "3.7.0",
-    "enzyme-adapter-react-16": "1.6.0",
+    "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.3.4",
     "identity-obj-proxy": "3.0.0",
     "instant-table": "1.0.5",
