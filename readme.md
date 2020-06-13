@@ -22,7 +22,7 @@ npm i react-json-to-csv
 ```
 Or load from a CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/react-json-to-csv"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-json-to-csv" />
 ```
 
 ## Example Usage
