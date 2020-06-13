@@ -54,7 +54,7 @@
     "coveralls": "3.1.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "enzyme-to-json": "3.3.4",
+    "enzyme-to-json": "3.5.0",
     "identity-obj-proxy": "3.0.0",
     "instant-table": "1.0.5",
     "jest": "23.6.0",
