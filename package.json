@@ -56,7 +56,7 @@
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.5.0",
     "identity-obj-proxy": "3.0.0",
-    "instant-table": "1.0.5",
+    "instant-table": "3.0.0",
     "jest": "23.6.0",
     "mdx-go": "1.1.11",
     "prettier": "2.0.5",
