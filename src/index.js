@@ -1,7 +1,7 @@
 import React from 'react'
 import csvDownload from 'json-to-csv-export'
 
-const CsvDownload = props => {
+const CsvDownload = (props) => {
   const { data, filename, ...others } = props
 
   return (
