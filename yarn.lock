@@ -878,7 +878,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.12.7":
+"@babel/preset-react@7.12.7":
   version "7.12.7"
   resolved "https://registry.yarnpkg.com/@babel/preset-react/-/preset-react-7.12.7.tgz#36d61d83223b07b6ac4ec55cf016abb0f70be83b"
   integrity sha512-wKeTdnGUP5AEYCYQIMeXMMwU7j+2opxrG0WzuZfxuuW9nhKvvALBjl67653CWamZJVefuJGI219G591RSldrqQ==
@@ -3476,10 +3476,10 @@ core-js-compat@^3.7.0:
     browserslist "^4.15.0"
     semver "7.0.0"
 
-core-js@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.7.0.tgz#b0a761a02488577afbf97179e4681bf49568520f"
-  integrity sha512-NwS7fI5M5B85EwpWuIwJN4i/fbisQUwLwiSNUWeXlkAZ0sbBjLEvLvFLf1uzAUV66PcEPt4xCGCmOZSxVf3xzA==
+core-js@3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.1.tgz#f51523668ac8a294d1285c3b9db44025fda66d47"
+  integrity sha512-9Id2xHY1W7m8hCl8NkhQn5CufmF/WuR30BTRewvCXc1aZd3kMECwNZ69ndLbekKfakw9Rf2Xyc+QR6E7Gg+obg==
 
 core-js@^1.0.0:
   version "1.2.7"
@@ -6119,7 +6119,7 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json-to-csv-export@^1.0.2:
+json-to-csv-export@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-to-csv-export/-/json-to-csv-export-1.0.2.tgz#79e3d9b00a932eee0a2455a0a974cfd0c25b5e0c"
   integrity sha512-8yim1kx6h6KoAGDanN65KnFb2rTB60QBUbVqq1302AVSbj9bvzL7f7druqzSNEA5hMMGsqI5G5WcU0tnKWks1Q==
