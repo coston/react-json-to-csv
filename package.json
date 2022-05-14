@@ -57,7 +57,7 @@
     "enzyme-to-json": "3.6.2",
     "identity-obj-proxy": "3.0.0",
     "instant-table": "3.0.0",
-    "jest": "27.5.1",
+    "jest": "28.1.0",
     "mdx-go": "1.1.11",
     "prettier": "2.6.2",
     "prop-types": "15.8.1",
