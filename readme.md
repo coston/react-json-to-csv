@@ -40,6 +40,12 @@ import CsvDownload from 'react-json-to-csv'
 | data     | `object`  | `required` | `null`  | object or array of objects             |
 | filename| `string`  | `optional` | "export.csv"  | The complete filename          |
 
+## Typescript Support 
+Install types with npm
+```sh
+npm i --save-dev @types/react-json-to-csv
+```
+
 ## Contributing
 
 Please help provide good data faster! Submit any issues and/or make a pull request!
