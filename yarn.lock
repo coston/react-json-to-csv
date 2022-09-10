@@ -6993,10 +6993,10 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json-to-csv-export@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/json-to-csv-export/-/json-to-csv-export-1.1.1.tgz#ca33d85ecab0720e35f0a20b6edda1972a39019c"
-  integrity sha512-7FHIjc6Rqan5wfjpQjkOiKF0R2oT/2X828lqSY/ktruGUJ6iN8zxdd1tABbBhad4WBYd1S0UQcW+HdJsuuR/4A==
+json-to-csv-export@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/json-to-csv-export/-/json-to-csv-export-1.1.2.tgz#64ae45ab29a81b26bc65f7ed46d5bba98dda0382"
+  integrity sha512-eThPhsB6+i6+dNwCM+gDUADQXpBKn3712SDVZDPEdQ82GuycxL8ct8wrho7LOzLtMdzuP6kGs4Y6+a2lc51uTg==
 
 json3@^3.3.2:
   version "3.3.3"
