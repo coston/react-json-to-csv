@@ -35,6 +35,6 @@ export const Root = props =>(
   }}>
     {props.children}
   </div>
-  
+
   </StyleProvider>
 )
