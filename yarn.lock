@@ -6222,10 +6222,10 @@ json-stringify-safe@~5.0.1:
   resolved "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
   integrity sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==
 
-json-to-csv-export@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/json-to-csv-export/-/json-to-csv-export-2.0.2.tgz#3acc1dc89e1a5452ab696d94092550dd142b42d5"
-  integrity sha512-LYuRCAQzNCocKIgwIcL9c6mBTAQuGXcehXejRCTXCf39zTNgS9TuqObX8DsKFnBHGaOZkQDXOVUzAvH3KqSymw==
+json-to-csv-export@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/json-to-csv-export/-/json-to-csv-export-2.1.0.tgz#9d0dd47582ac4b7b75f07bea758b76a7546c63ac"
+  integrity sha512-xAkBf6f0uLqG7gtCuulqp6BtbIswYMiSTCJ2ctuh2w1W5XvQKywX4Ppkr5Tgm3JUHLgeOspli8zA9Hy494X5WA==
 
 json3@^3.3.2:
   version "3.3.3"
