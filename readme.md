@@ -34,10 +34,10 @@ Or load from a CDN:
 ## Example Usage
 
 ```jsx
-import CsvDownload from 'react-json-to-csv'
+import CsvDownloadButton from 'react-json-to-csv'
 ...
 
-<CsvDownload data={mockData} />
+<CsvDownloadButton data={mockData} />
 ```
 
 ## Props

@@ -1,12 +1,12 @@
 // example Root component
 import React from 'react'
 import { StyleProvider } from 'mdx-go'
-import CsvDownload from '../src/index'
+import CsvDownloadButton from '../src/index'
 import mockData from './mockData.js'
 
 
 const components = {
-  CsvDownload,
+  CsvDownloadButton,
   mockData,
 }
 
@@ -35,6 +35,6 @@ export const Root = props =>(
   }}>
     {props.children}
   </div>
-  
+
   </StyleProvider>
 )
