@@ -1,10 +1,10 @@
 import React from 'react'
-import CsvDownload from '../src/index'
+import CsvDownloadButton from '../src/index'
 import renderer from 'react-test-renderer';
 
-test('Render CsvDownload', () => {
+test('Render CsvDownloadButton', () => {
   const wrapper = shallow(
-    <CsvDownload
+    <CsvDownloadButton
       data={mockData}
     />
   )
